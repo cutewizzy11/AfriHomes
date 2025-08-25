@@ -1,0 +1,43 @@
+# Flutter & Dart
+.dart_tool/
+.packages
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.metadata
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/web/.dart_tool/
+
+# Android
+**/local.properties
+**/.gradle/
+**/captures/
+**/gradle/wrapper/gradle-wrapper.jar
+
+# iOS
+**/Pods/
+**/.symlinks/
+**/Flutter/ephemeral/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Node/JS
+node_modules/
+**/dist/
+**/.next/
+yarn.lock
+package-lock.json
+
+# Env
+.env
+.env.*
+
+# Mac
+.DS_Store
+
