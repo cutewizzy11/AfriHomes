@@ -5,9 +5,7 @@ export async function connectToDatabase(uri: string): Promise<void> {
     return; // Optional in dev: skip if not provided
   }
   if (mongoose.connection.readyState === 1) return;
-  await mongoose.connect(uri, {
-    // @ts-expect-error Mongoose v8 accepts connection string options implicitly
-  });
+  await mongoose.connect(uri);
 }
 
 export function getDbState(): 'disconnected' | 'connecting' | 'connected' | 'disconnecting' {
